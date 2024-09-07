@@ -11,4 +11,8 @@ public class overloading {
     public static void calc(int a,int b,int c){
         System.out.println(a+b+c);
     }
+
+    public static void calc(int a){
+        System.out.println(a);
+    }
 }
